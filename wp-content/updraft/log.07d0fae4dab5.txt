@@ -1,0 +1,856 @@
+0000.002 (0) Opened log file at time: Fri, 26 May 2023 05:40:57 +0000 on https://kilomanu.dk/kea/millevalsoe
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.0.28 (cgi-fcgi, Linux kilomanu.dk 5.4.0-80-generic #90-Ubuntu SMP Fri Jul 9 22:49:44 UTC 2021 x86_64) MySQL: 10.3.38-MariaDB-1:10.3.38+maria~ubu2004 (max packet size=1073741824) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1073741824 (used: 21.2M | 24M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 108824767.4 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.017 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1684988536, seconds_ago=91121)
+0000.018 (0) Set semaphore last lock (fd) time to 2023-05-26 05:40:57
+0000.018 (0) Semaphore lock (fd) complete
+0000.020 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2196, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.021 (0) Backup run: resumption=0, nonce=07d0fae4dab5, file_nonce=07d0fae4dab5 begun at=1685079657 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1685079957) in case this run gets aborted
+0000.047 (0) Checking if we have a zip executable available
+0000.048 (0) Creation of backups of directories: beginning
+0000.053 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 265, wp-content/plugins/updraftplus/backup.php)
+0000.053 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.327 (0) Total entities for the zip file: 2508 directories, 9104 files (0 skipped as non-modified), 161.6 MB
+0006.334 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0006.334 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.434 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 100 files added (on-disk size: 468.3 KB)
+0006.479 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 200 files added (on-disk size: 468.3 KB)
+0006.523 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 300 files added (on-disk size: 468.3 KB)
+0006.569 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 400 files added (on-disk size: 468.3 KB)
+0006.614 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 500 files added (on-disk size: 468.3 KB)
+0006.659 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 600 files added (on-disk size: 468.3 KB)
+0006.689 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0006.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.9 MB, 9104 files batched, 665 (666) added so far); re-opening (prior size: 468.3 KB)
+0008.627 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.3 s, rate: 11350.5 KB/s)
+0008.628 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.335953950882, normalised_time=2.2554110061597, max_time=8.626070022583, data points known=1, old_max_bytes=26214400, new_max_bytes=69737355)
+0008.656 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 700 files added (on-disk size: 7831.8 KB)
+0008.696 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 800 files added (on-disk size: 7831.8 KB)
+0008.736 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 900 files added (on-disk size: 7831.8 KB)
+0008.778 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1000 files added (on-disk size: 7831.8 KB)
+0008.820 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1100 files added (on-disk size: 7831.8 KB)
+0008.861 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1200 files added (on-disk size: 7831.8 KB)
+0008.901 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1300 files added (on-disk size: 7831.8 KB)
+0008.942 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1400 files added (on-disk size: 7831.8 KB)
+0008.984 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1500 files added (on-disk size: 7831.8 KB)
+0009.026 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1600 files added (on-disk size: 7831.8 KB)
+0009.054 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0009.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.8 MB, 9104 files batched, 1001 (1667) added so far); re-opening (prior size: 7831.8 KB)
+0010.706 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1700 files added (on-disk size: 14033.5 KB)
+0010.749 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1800 files added (on-disk size: 14033.5 KB)
+0010.794 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 1900 files added (on-disk size: 14033.5 KB)
+0010.837 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2000 files added (on-disk size: 14033.5 KB)
+0010.882 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2100 files added (on-disk size: 14033.5 KB)
+0010.927 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2200 files added (on-disk size: 14033.5 KB)
+0010.971 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2300 files added (on-disk size: 14033.5 KB)
+0011.016 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2400 files added (on-disk size: 14033.5 KB)
+0011.060 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2500 files added (on-disk size: 14033.5 KB)
+0011.102 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2600 files added (on-disk size: 14033.5 KB)
+0011.130 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0011.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.7 MB, 9104 files batched, 1001 (2668) added so far); re-opening (prior size: 14033.5 KB)
+0012.405 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2700 files added (on-disk size: 17108 KB)
+0012.456 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2800 files added (on-disk size: 17108 KB)
+0012.503 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 2900 files added (on-disk size: 17108 KB)
+0012.550 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3000 files added (on-disk size: 17108 KB)
+0012.594 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3100 files added (on-disk size: 17108 KB)
+0012.637 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3200 files added (on-disk size: 17108 KB)
+0012.683 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3300 files added (on-disk size: 17108 KB)
+0012.725 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3400 files added (on-disk size: 17108 KB)
+0012.769 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3500 files added (on-disk size: 17108 KB)
+0012.812 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3600 files added (on-disk size: 17108 KB)
+0012.853 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0012.854 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22 MB, 9104 files batched, 1001 (3669) added so far); re-opening (prior size: 17108 KB)
+0015.189 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3700 files added (on-disk size: 23662.2 KB)
+0015.243 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3800 files added (on-disk size: 23662.2 KB)
+0015.300 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 3900 files added (on-disk size: 23662.2 KB)
+0015.348 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4000 files added (on-disk size: 23662.2 KB)
+0015.400 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4100 files added (on-disk size: 23662.2 KB)
+0015.447 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4200 files added (on-disk size: 23662.2 KB)
+0015.493 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4300 files added (on-disk size: 23662.2 KB)
+0015.540 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4400 files added (on-disk size: 23662.2 KB)
+0015.593 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4500 files added (on-disk size: 23662.2 KB)
+0015.647 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4600 files added (on-disk size: 23662.2 KB)
+0015.679 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0015.680 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.2 MB, 9104 files batched, 1001 (4670) added so far); re-opening (prior size: 23662.2 KB)
+0017.858 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4700 files added (on-disk size: 29085 KB)
+0017.901 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4800 files added (on-disk size: 29085 KB)
+0017.945 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 4900 files added (on-disk size: 29085 KB)
+0017.989 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5000 files added (on-disk size: 29085 KB)
+0018.035 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5100 files added (on-disk size: 29085 KB)
+0018.081 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5200 files added (on-disk size: 29085 KB)
+0018.128 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5300 files added (on-disk size: 29085 KB)
+0018.173 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5400 files added (on-disk size: 29085 KB)
+0018.217 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5500 files added (on-disk size: 29085 KB)
+0018.265 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5600 files added (on-disk size: 29085 KB)
+0018.298 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0018.299 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.1 MB, 9104 files batched, 1001 (5671) added so far); re-opening (prior size: 29085 KB)
+0020.199 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5700 files added (on-disk size: 33435.3 KB)
+0020.241 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5800 files added (on-disk size: 33435.3 KB)
+0020.282 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 5900 files added (on-disk size: 33435.3 KB)
+0020.322 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6000 files added (on-disk size: 33435.3 KB)
+0020.362 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6100 files added (on-disk size: 33435.3 KB)
+0020.409 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6200 files added (on-disk size: 33435.3 KB)
+0020.457 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6300 files added (on-disk size: 33435.3 KB)
+0020.503 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6400 files added (on-disk size: 33435.3 KB)
+0020.546 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6500 files added (on-disk size: 33435.3 KB)
+0020.591 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6600 files added (on-disk size: 33435.3 KB)
+0020.623 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0020.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 9104 files batched, 1001 (6672) added so far); re-opening (prior size: 33435.3 KB)
+0021.516 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6700 files added (on-disk size: 36384.1 KB)
+0021.562 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6800 files added (on-disk size: 36384.1 KB)
+0021.606 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 6900 files added (on-disk size: 36384.1 KB)
+0021.652 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7000 files added (on-disk size: 36384.1 KB)
+0021.694 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7100 files added (on-disk size: 36384.1 KB)
+0021.738 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7200 files added (on-disk size: 36384.1 KB)
+0021.781 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7300 files added (on-disk size: 36384.1 KB)
+0021.822 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7400 files added (on-disk size: 36384.1 KB)
+0021.865 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7500 files added (on-disk size: 36384.1 KB)
+0021.912 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7600 files added (on-disk size: 36384.1 KB)
+0021.945 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0021.945 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.8 MB, 9104 files batched, 1001 (7673) added so far); re-opening (prior size: 36384.1 KB)
+0023.651 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7700 files added (on-disk size: 42204.3 KB)
+0023.695 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7800 files added (on-disk size: 42204.3 KB)
+0023.738 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 7900 files added (on-disk size: 42204.3 KB)
+0023.783 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8000 files added (on-disk size: 42204.3 KB)
+0023.829 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8100 files added (on-disk size: 42204.3 KB)
+0023.875 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8200 files added (on-disk size: 42204.3 KB)
+0023.917 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8300 files added (on-disk size: 42204.3 KB)
+0023.961 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8400 files added (on-disk size: 42204.3 KB)
+0024.006 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8500 files added (on-disk size: 42204.3 KB)
+0024.052 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8600 files added (on-disk size: 42204.3 KB)
+0024.087 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0024.087 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.7 MB, 9104 files batched, 1001 (8674) added so far); re-opening (prior size: 42204.3 KB)
+0025.585 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8700 files added (on-disk size: 46678.2 KB)
+0025.633 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8800 files added (on-disk size: 46678.2 KB)
+0025.680 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 8900 files added (on-disk size: 46678.2 KB)
+0025.732 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 9000 files added (on-disk size: 46678.2 KB)
+0025.780 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.tmp: 9100 files added (on-disk size: 46678.2 KB)
+0026.725 (0) Creating zip file manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.list-temp.tmp)
+0026.741 (0) Successfully created zip file manifest (size: 797659)
+0027.267 (0) Created plugins zip (0) - 48406.7 KB in 27.2 s (1778.9 KB/s) (sha1: 2f943741d033b70a1806eb197ae3a01c5fd5044f, sha256: 996c38ea585226448a53ef9131b256476e703fcf3424cf385711430b369718a5)
+0027.280 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.280 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 559, wp-content/plugins/updraftplus/backup.php)
+0027.280 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ab0eac951d31e8eddb84155da4007d37)
+0029.092 (0) Google Drive: quota usage: used=5636.6 MB, total=15360 MB, available=9723.4 MB
+0029.093 (0) Google Drive: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1DB6_1cqmThy1TJiEOd0AigzIqwNCaXww)
+0029.748 (0) Googledrive chunked upload: 2.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 24 / 28)
+0030.221 (0) Googledrive chunked upload: 6.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 24 / 28)
+0030.840 (0) Googledrive chunked upload: 14.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 24 / 28)
+0031.701 (0) Googledrive chunked upload: 31.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 24 / 28)
+0032.632 (0) Googledrive chunked upload: 65.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 24 / 28)
+0034.725 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0034.727 (0) Google Drive: OK: Archive backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip uploaded in 5.63 seconds
+0034.727 (0) Recording as successfully uploaded: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip
+0034.734 (0) Deleting local file: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip: OK
+0034.738 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 265, wp-content/plugins/updraftplus/backup.php)
+0034.739 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.339 (0) Total entities for the zip file: 305 directories, 683 files (0 skipped as non-modified), 17.8 MB
+0035.387 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.434 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.481 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.528 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.574 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.620 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0036.996 (0) Creating zip file manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.list-temp.tmp)
+0036.999 (0) Successfully created zip file manifest (size: 59411)
+0037.068 (0) Created themes zip (0) - 5678.9 KB in 2.3 s (2441.2 KB/s) (sha1: 592d8833bd088bd391d1a3b423c3f5e300a1d8eb, sha256: 5c2723d8e89e8dda0ad935693781c88c9890ba4fbceeb777dd3c7c17fab38151)
+0037.073 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0037.073 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 559, wp-content/plugins/updraftplus/backup.php)
+0037.074 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ab0eac951d31e8eddb84155da4007d37)
+0037.446 (0) Google Drive: quota usage: used=5683.9 MB, total=15360 MB, available=9676.1 MB
+0037.447 (0) Google Drive: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip: Attempting to upload to Google Drive (into folder id: 1DB6_1cqmThy1TJiEOd0AigzIqwNCaXww)
+0038.266 (0) Googledrive chunked upload: 18 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 22.5 / 28)
+0038.670 (0) Googledrive chunked upload: 54.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 22.5 / 28)
+0039.971 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0039.973 (0) Google Drive: OK: Archive backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip uploaded in 2.53 seconds
+0039.973 (0) Recording as successfully uploaded: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip
+0039.975 (0) Deleting local file: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip: OK
+0039.979 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0039.979 (0) Looking for candidates to backup in: /customers/a/f/f/kilomanu.dk/httpd.www/kea/millevalsoe/wp-content/uploads
+0039.982 (0) finding files: 2023: adding to list (1)
+0039.982 (0) finding files: elementor: adding to list (2)
+0039.983 (0) finding files: woocommerce_uploads: adding to list (3)
+0039.983 (0) finding files: wc-logs: adding to list (4)
+0039.983 (0) finding files: woocommerce-placeholder.png: adding to list (5)
+0039.983 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0039.984 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (7)
+0039.984 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (8)
+0039.984 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (9)
+0039.985 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (10)
+0039.985 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (11)
+0039.985 (0) finding files: wpcode: adding to list (12)
+0039.985 (0) finding files: premium-addons-elementor: adding to list (13)
+0039.986 (0) finding files: useanyfont: adding to list (14)
+0039.986 (0) finding files: ssa: adding to list (15)
+0039.986 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 265, wp-content/plugins/updraftplus/backup.php)
+0039.987 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0041.286 (0) Total entities for the zip file: 15 directories, 2775 files (0 skipped as non-modified), 50.5 MB
+0041.333 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0041.377 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0041.431 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0041.482 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0041.525 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0041.572 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0041.619 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0041.664 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0041.711 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0041.759 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0041.760 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0041.760 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.8 MB, 2775 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0042.399 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1100 files added (on-disk size: 7165.2 KB)
+0042.449 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1200 files added (on-disk size: 7165.2 KB)
+0042.491 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1300 files added (on-disk size: 7165.2 KB)
+0042.534 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1400 files added (on-disk size: 7165.2 KB)
+0042.575 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1500 files added (on-disk size: 7165.2 KB)
+0042.618 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1600 files added (on-disk size: 7165.2 KB)
+0042.659 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1700 files added (on-disk size: 7165.2 KB)
+0042.712 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1800 files added (on-disk size: 7165.2 KB)
+0042.753 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 1900 files added (on-disk size: 7165.2 KB)
+0042.794 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2000 files added (on-disk size: 7165.2 KB)
+0042.795 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 4149, wp-content/plugins/updraftplus/backup.php)
+0042.796 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 2775 files batched, 1001 (2002) added so far); re-opening (prior size: 7165.2 KB)
+0043.495 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2100 files added (on-disk size: 15847.9 KB)
+0043.537 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2200 files added (on-disk size: 15847.9 KB)
+0043.578 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2300 files added (on-disk size: 15847.9 KB)
+0043.621 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2400 files added (on-disk size: 15847.9 KB)
+0043.663 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2500 files added (on-disk size: 15847.9 KB)
+0043.706 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2600 files added (on-disk size: 15847.9 KB)
+0043.746 (0) Zip: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.tmp: 2700 files added (on-disk size: 15847.9 KB)
+0044.869 (0) Creating zip file manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.list-temp.tmp)
+0044.876 (0) Successfully created zip file manifest (size: 154185)
+0045.371 (0) Created uploads zip (0) - 50666.6 KB in 5.4 s (9414.5 KB/s) (sha1: e4c6d6992f474fdaeb4c30a7548820bc6570c6c6, sha256: 2f026dfe9dcf5a737c9c235560e35de6f06fb6dea3da42ee1d481dc0c7724be1)
+0045.378 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.378 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 559, wp-content/plugins/updraftplus/backup.php)
+0045.379 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ab0eac951d31e8eddb84155da4007d37)
+0045.815 (0) Google Drive: quota usage: used=5689.4 MB, total=15360 MB, available=9670.6 MB
+0045.815 (0) Google Drive: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1DB6_1cqmThy1TJiEOd0AigzIqwNCaXww)
+0046.569 (0) Googledrive chunked upload: 2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 22.7 / 28)
+0046.903 (0) Googledrive chunked upload: 6.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 22.7 / 28)
+0049.716 (0) Googledrive chunked upload: 14.1 % uploaded (7340032)
+0051.215 (0) Googledrive chunked upload: 22.2 % uploaded (11534336 - increasing chunk size to 8192 KB - memory usage: 22.7 / 28)
+0052.414 (0) Googledrive chunked upload: 38.4 % uploaded (19922944 - increasing chunk size to 16384 KB - memory usage: 22.7 / 28)
+0053.897 (0) Googledrive chunked upload: 70.7 % uploaded (36700160 - increasing chunk size to 32768 KB - memory usage: 22.7 / 28)
+0055.741 (0) Googledrive chunked upload: 100 % uploaded (36700160)
+0055.743 (0) Google Drive: OK: Archive backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip uploaded in 9.93 seconds
+0055.743 (0) Recording as successfully uploaded: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip
+0055.748 (0) Deleting local file: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip: OK
+0055.752 (0) Beginning backup of other directories found in the content directory (index: 0)
+0055.753 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0055.753 (0) Looking for candidates to backup in: /customers/a/f/f/kilomanu.dk/httpd.www/kea/millevalsoe/wp-content
+0055.755 (0) finding files: index.php: adding to list (1)
+0055.755 (0) finding files: plugins: skipping: this is the plugins directory
+0055.756 (0) finding files: themes: skipping: this is the themes directory
+0055.756 (0) finding files: uploads: skipping: this is the uploads directory
+0055.756 (0) finding files: upgrade: skipping: excluded by options
+0055.757 (0) finding files: updraft: skipping: this is the updraft directory
+0055.757 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 265, wp-content/plugins/updraftplus/backup.php)
+0055.762 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0055.775 (0) Creating zip file manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip.list-temp.tmp)
+0055.777 (0) Successfully created zip file manifest (size: 43)
+0055.786 (0) Created others zip (0) - 0.1 KB in 0 s (5.3 KB/s) (sha1: 32f91f3f5ac363a738b28a787dc6adfc1e3a82ba, sha256: d5276eec061967a04b6fd7934d3506e2487a4c88a37d71fe3939c9e2454398e6)
+0055.790 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0055.791 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 559, wp-content/plugins/updraftplus/backup.php)
+0055.791 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ab0eac951d31e8eddb84155da4007d37)
+0056.136 (0) Google Drive: quota usage: used=5738.9 MB, total=15360 MB, available=9621.1 MB
+0056.137 (0) Google Drive: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip: Attempting to upload to Google Drive (into folder id: 1DB6_1cqmThy1TJiEOd0AigzIqwNCaXww)
+0057.583 (0) Googledrive chunked upload: 100 % uploaded
+0057.585 (0) Google Drive: OK: Archive backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip uploaded in 1.45 seconds
+0057.585 (0) Recording as successfully uploaded: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip
+0057.587 (0) Deleting local file: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip: OK
+0057.593 (0) Saving backup status to database (elements: 8)
+0057.596 (0) Beginning creation of database dump (WordPress DB)
+0057.597 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0057.606 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.616 (0) Table millevalsoe_options: Total expected rows (via COUNT): 613
+0057.617 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.704 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.705 (0) Table millevalsoe_options: Rows added in this batch (next record: 5391): 609 (uncompressed bytes in this segment=2615105) in 0.09 seconds
+0057.717 (0) Table millevalsoe_options: finishing file(s) (2, 325 KB)
+0057.717 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.722 (0) Table millevalsoe_users: Total expected rows (via COUNT): 3
+0057.723 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.724 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.724 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.725 (0) Table millevalsoe_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1579) in 0.00 seconds
+0057.734 (0) Table millevalsoe_users: finishing file(s) (2, 0.8 KB)
+0057.735 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.740 (0) Table millevalsoe_usermeta: Total expected rows (via COUNT): 73
+0057.740 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.741 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.742 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.743 (0) Table millevalsoe_usermeta: Rows added in this batch (next record: 80): 73 (uncompressed bytes in this segment=22198) in 0.00 seconds
+0057.750 (0) Table millevalsoe_usermeta: finishing file(s) (2, 5 KB)
+0057.751 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.758 (0) Table millevalsoe_commentmeta: Total expected rows (via COUNT): 0
+0057.759 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.761 (0) Table millevalsoe_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.00 seconds
+0057.771 (0) Table millevalsoe_commentmeta: finishing file(s) (2, 0.4 KB)
+0057.771 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.777 (0) Table millevalsoe_comments: Total expected rows (via COUNT): 1
+0057.778 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.779 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.780 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.780 (0) Table millevalsoe_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1995) in 0.00 seconds
+0057.791 (0) Table millevalsoe_comments: finishing file(s) (2, 0.8 KB)
+0057.792 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.798 (0) Table millevalsoe_links: Total expected rows (via COUNT): 0
+0057.800 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0057.800 (0) Table millevalsoe_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1081) in 0.00 seconds
+0057.808 (0) Table millevalsoe_links: finishing file(s) (2, 0.5 KB)
+0057.809 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0057.965 (0) Table millevalsoe_postmeta: Total expected rows (approximate): 47200
+0057.966 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0058.241 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0059.487 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0060.644 (0) Table millevalsoe_postmeta: Rows added in this batch (next record: 15226): 12000 (uncompressed bytes in this segment=106149314) in 2.83 seconds
+0060.685 (0) Table millevalsoe_postmeta: Total expected rows (via COUNT): 19328
+0060.685 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0061.792 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0062.883 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0062.891 (0) Table millevalsoe_postmeta: Rows added in this batch (next record: 24394): 7328 (uncompressed bytes in this segment=95193292) in 2.21 seconds
+0062.916 (0) Table millevalsoe_postmeta: finishing file(s) (3, 25993.1 KB)
+0062.917 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0062.969 (0) Table millevalsoe_posts: Total expected rows (approximate): 3961
+0062.970 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0063.176 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0063.988 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0064.954 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0064.957 (0) Table millevalsoe_posts: Rows added in this batch (next record: 3195): 2981 (uncompressed bytes in this segment=74920039) in 2.04 seconds
+0064.984 (0) Table millevalsoe_posts: finishing file(s) (2, 12020.7 KB)
+0064.984 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0064.987 (0) Table millevalsoe_term_relationships: Total expected rows (approximate): 119
+0064.988 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0064.989 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0064.989 (0) Table millevalsoe_term_relationships: Rows added in this batch (next record: 100000): 119 (uncompressed bytes in this segment=2590) in 0.00 seconds
+0064.995 (0) Table millevalsoe_term_relationships: finishing file(s) (2, 0.8 KB)
+0064.996 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.000 (0) Table millevalsoe_term_taxonomy: Total expected rows (via COUNT): 40
+0065.000 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.001 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.001 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.002 (0) Table millevalsoe_term_taxonomy: Rows added in this batch (next record: 42): 40 (uncompressed bytes in this segment=2470) in 0.00 seconds
+0065.007 (0) Table millevalsoe_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0065.008 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.011 (0) Table millevalsoe_termmeta: Total expected rows (via COUNT): 0
+0065.012 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.012 (0) Table millevalsoe_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=661) in 0.00 seconds
+0065.018 (0) Table millevalsoe_termmeta: finishing file(s) (2, 0.4 KB)
+0065.018 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.022 (0) Table millevalsoe_terms: Total expected rows (via COUNT): 40
+0065.022 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.023 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.023 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.024 (0) Table millevalsoe_terms: Rows added in this batch (next record: 42): 40 (uncompressed bytes in this segment=2198) in 0.00 seconds
+0065.029 (0) Table millevalsoe_terms: finishing file(s) (2, 0.9 KB)
+0065.029 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.033 (0) Table millevalsoe_actionscheduler_actions: Total expected rows (via COUNT): 18
+0065.033 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.034 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.035 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.035 (0) Table millevalsoe_actionscheduler_actions: Rows added in this batch (next record: 36): 18 (uncompressed bytes in this segment=9198) in 0.00 seconds
+0065.041 (0) Table millevalsoe_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0065.041 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.044 (0) Table millevalsoe_actionscheduler_claims: Total expected rows (via COUNT): 0
+0065.045 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.046 (0) Table millevalsoe_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0065.050 (0) Table millevalsoe_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0065.051 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.054 (0) Table millevalsoe_actionscheduler_groups: Total expected rows (via COUNT): 1
+0065.054 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.055 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.056 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.056 (0) Table millevalsoe_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=721) in 0.00 seconds
+0065.061 (0) Table millevalsoe_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0065.062 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.065 (0) Table millevalsoe_actionscheduler_logs: Total expected rows (via COUNT): 46
+0065.066 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.067 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.067 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.068 (0) Table millevalsoe_actionscheduler_logs: Rows added in this batch (next record: 46): 46 (uncompressed bytes in this segment=4895) in 0.00 seconds
+0065.073 (0) Table millevalsoe_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0065.073 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.078 (0) Table millevalsoe_e_events: Total expected rows (via COUNT): 0
+0065.079 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.079 (0) Table millevalsoe_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=565) in 0.00 seconds
+0065.084 (0) Table millevalsoe_e_events: finishing file(s) (2, 0.4 KB)
+0065.085 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.089 (0) Table millevalsoe_e_submissions: Total expected rows (via COUNT): 1
+0065.089 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.090 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.091 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.091 (0) Table millevalsoe_e_submissions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2503) in 0.00 seconds
+0065.096 (0) Table millevalsoe_e_submissions: finishing file(s) (2, 1 KB)
+0065.097 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.100 (0) Table millevalsoe_e_submissions_actions_log: Total expected rows (via COUNT): 1
+0065.100 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.101 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.101 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.101 (0) Table millevalsoe_e_submissions_actions_log: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1452) in 0.00 seconds
+0065.107 (0) Table millevalsoe_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0065.107 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.112 (0) Table millevalsoe_e_submissions_values: Total expected rows (via COUNT): 5
+0065.112 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.112 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.113 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.113 (0) Table millevalsoe_e_submissions_values: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=944) in 0.00 seconds
+0065.120 (0) Table millevalsoe_e_submissions_values: finishing file(s) (2, 0.5 KB)
+0065.120 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.124 (0) Table millevalsoe_ssa_appointment_meta: Total expected rows (via COUNT): 0
+0065.125 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.126 (0) Table millevalsoe_ssa_appointment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.00 seconds
+0065.133 (0) Table millevalsoe_ssa_appointment_meta: finishing file(s) (2, 0.4 KB)
+0065.133 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.136 (0) Table millevalsoe_ssa_appointment_type_labels: Total expected rows (via COUNT): 1
+0065.136 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.137 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.137 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.138 (0) Table millevalsoe_ssa_appointment_type_labels: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=833) in 0.00 seconds
+0065.143 (0) Table millevalsoe_ssa_appointment_type_labels: finishing file(s) (2, 0.5 KB)
+0065.143 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.147 (0) Table millevalsoe_ssa_appointment_types: Total expected rows (via COUNT): 0
+0065.148 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.148 (0) Table millevalsoe_ssa_appointment_types: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2535) in 0.00 seconds
+0065.153 (0) Table millevalsoe_ssa_appointment_types: finishing file(s) (2, 0.8 KB)
+0065.154 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.157 (0) Table millevalsoe_ssa_appointments: Total expected rows (via COUNT): 0
+0065.157 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.158 (0) Table millevalsoe_ssa_appointments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1913) in 0.00 seconds
+0065.163 (0) Table millevalsoe_ssa_appointments: finishing file(s) (2, 0.7 KB)
+0065.163 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.167 (0) Table millevalsoe_ssa_async_actions: Total expected rows (via COUNT): 0
+0065.167 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.167 (0) Table millevalsoe_ssa_async_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0065.173 (0) Table millevalsoe_ssa_async_actions: finishing file(s) (2, 0.6 KB)
+0065.173 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.177 (0) Table millevalsoe_ssa_availability: Total expected rows (via COUNT): 0
+0065.177 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.178 (0) Table millevalsoe_ssa_availability: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1937) in 0.00 seconds
+0065.184 (0) Table millevalsoe_ssa_availability: finishing file(s) (2, 0.7 KB)
+0065.185 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.188 (0) Table millevalsoe_ssa_availability_external: Total expected rows (via COUNT): 0
+0065.189 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.189 (0) Table millevalsoe_ssa_availability_external: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1712) in 0.00 seconds
+0065.197 (0) Table millevalsoe_ssa_availability_external: finishing file(s) (2, 0.6 KB)
+0065.198 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.201 (0) Table millevalsoe_ssa_revision_meta: Total expected rows (via COUNT): 0
+0065.202 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.202 (0) Table millevalsoe_ssa_revision_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=824) in 0.00 seconds
+0065.207 (0) Table millevalsoe_ssa_revision_meta: finishing file(s) (2, 0.4 KB)
+0065.208 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.211 (0) Table millevalsoe_ssa_revisions: Total expected rows (via COUNT): 0
+0065.212 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.213 (0) Table millevalsoe_ssa_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1573) in 0.00 seconds
+0065.217 (0) Table millevalsoe_ssa_revisions: finishing file(s) (2, 0.6 KB)
+0065.218 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.222 (0) Table millevalsoe_wc_admin_note_actions: Total expected rows (via COUNT): 61
+0065.222 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.223 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.224 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.224 (0) Table millevalsoe_wc_admin_note_actions: Rows added in this batch (next record: 179): 61 (uncompressed bytes in this segment=11977) in 0.00 seconds
+0065.231 (0) Table millevalsoe_wc_admin_note_actions: finishing file(s) (2, 2.3 KB)
+0065.231 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.235 (0) Table millevalsoe_wc_admin_notes: Total expected rows (via COUNT): 51
+0065.236 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.236 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.237 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.238 (0) Table millevalsoe_wc_admin_notes: Rows added in this batch (next record: 51): 51 (uncompressed bytes in this segment=25277) in 0.00 seconds
+0065.243 (0) Table millevalsoe_wc_admin_notes: finishing file(s) (2, 5.4 KB)
+0065.244 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.246 (0) Table millevalsoe_wc_category_lookup: Total expected rows (approximate): 1
+0065.247 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.248 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.248 (0) Table millevalsoe_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=652) in 0.00 seconds
+0065.254 (0) Table millevalsoe_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0065.255 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.258 (0) Table millevalsoe_wc_customer_lookup: Total expected rows (via COUNT): 0
+0065.258 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.259 (0) Table millevalsoe_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1072) in 0.00 seconds
+0065.264 (0) Table millevalsoe_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0065.264 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.268 (0) Table millevalsoe_wc_download_log: Total expected rows (via COUNT): 0
+0065.268 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.269 (0) Table millevalsoe_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=770) in 0.00 seconds
+0065.275 (0) Table millevalsoe_wc_download_log: finishing file(s) (2, 0.4 KB)
+0065.275 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.278 (0) Table millevalsoe_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0065.278 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.279 (0) Table millevalsoe_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0065.284 (0) Table millevalsoe_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0065.284 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.287 (0) Table millevalsoe_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0065.288 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.288 (0) Table millevalsoe_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1269) in 0.00 seconds
+0065.293 (0) Table millevalsoe_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0065.294 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.297 (0) Table millevalsoe_wc_order_stats: Total expected rows (via COUNT): 0
+0065.297 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.297 (0) Table millevalsoe_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1246) in 0.00 seconds
+0065.302 (0) Table millevalsoe_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0065.302 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.306 (0) Table millevalsoe_wc_order_tax_lookup: Total expected rows (approximate): 0
+0065.306 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.307 (0) Table millevalsoe_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0065.312 (0) Table millevalsoe_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0065.312 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.316 (0) Table millevalsoe_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0065.316 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.317 (0) Table millevalsoe_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=885) in 0.00 seconds
+0065.322 (0) Table millevalsoe_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0065.322 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.326 (0) Table millevalsoe_wc_product_download_directories: Total expected rows (via COUNT): 2
+0065.326 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.327 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.327 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.328 (0) Table millevalsoe_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=985) in 0.00 seconds
+0065.332 (0) Table millevalsoe_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0065.333 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.336 (0) Table millevalsoe_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0065.337 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.338 (0) Table millevalsoe_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1279) in 0.00 seconds
+0065.343 (0) Table millevalsoe_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0065.344 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.347 (0) Table millevalsoe_wc_rate_limits: Total expected rows (via COUNT): 0
+0065.347 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.348 (0) Table millevalsoe_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.00 seconds
+0065.355 (0) Table millevalsoe_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0065.356 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.359 (0) Table millevalsoe_wc_reserved_stock: Total expected rows (approximate): 0
+0065.359 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.360 (0) Table millevalsoe_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0065.365 (0) Table millevalsoe_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0065.365 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.369 (0) Table millevalsoe_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0065.369 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.370 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.370 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.371 (0) Table millevalsoe_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=813) in 0.00 seconds
+0065.376 (0) Table millevalsoe_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0065.376 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.380 (0) Table millevalsoe_wc_webhooks: Total expected rows (via COUNT): 0
+0065.381 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.382 (0) Table millevalsoe_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1125) in 0.00 seconds
+0065.388 (0) Table millevalsoe_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0065.388 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.393 (0) Table millevalsoe_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0065.393 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.394 (0) Table millevalsoe_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=927) in 0.00 seconds
+0065.400 (0) Table millevalsoe_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0065.401 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.404 (0) Table millevalsoe_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0065.404 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.405 (0) Table millevalsoe_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=889) in 0.00 seconds
+0065.410 (0) Table millevalsoe_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0065.410 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.414 (0) Table millevalsoe_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0065.414 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.415 (0) Table millevalsoe_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1464) in 0.00 seconds
+0065.429 (0) Table millevalsoe_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0065.430 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.434 (0) Table millevalsoe_woocommerce_log: Total expected rows (via COUNT): 0
+0065.434 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.435 (0) Table millevalsoe_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.00 seconds
+0065.441 (0) Table millevalsoe_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0065.441 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.445 (0) Table millevalsoe_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0065.446 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.447 (0) Table millevalsoe_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.00 seconds
+0065.454 (0) Table millevalsoe_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0065.454 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.458 (0) Table millevalsoe_woocommerce_order_items: Total expected rows (via COUNT): 0
+0065.459 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.459 (0) Table millevalsoe_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.00 seconds
+0065.464 (0) Table millevalsoe_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0065.465 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.469 (0) Table millevalsoe_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0065.470 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.470 (0) Table millevalsoe_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=803) in 0.00 seconds
+0065.477 (0) Table millevalsoe_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0065.477 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.480 (0) Table millevalsoe_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0065.481 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.481 (0) Table millevalsoe_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0065.487 (0) Table millevalsoe_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0065.487 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.492 (0) Table millevalsoe_woocommerce_sessions: Total expected rows (via COUNT): 2
+0065.492 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.493 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.494 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.494 (0) Table millevalsoe_woocommerce_sessions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3550) in 0.00 seconds
+0065.499 (0) Table millevalsoe_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0065.500 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.503 (0) Table millevalsoe_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0065.504 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.505 (0) Table millevalsoe_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=866) in 0.00 seconds
+0065.510 (0) Table millevalsoe_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0065.510 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.513 (0) Table millevalsoe_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0065.514 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.515 (0) Table millevalsoe_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=796) in 0.00 seconds
+0065.520 (0) Table millevalsoe_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0065.520 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.523 (0) Table millevalsoe_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0065.523 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.524 (0) Table millevalsoe_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.00 seconds
+0065.529 (0) Table millevalsoe_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0065.530 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.533 (0) Table millevalsoe_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0065.534 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.534 (0) Table millevalsoe_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.00 seconds
+0065.540 (0) Table millevalsoe_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0065.541 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.544 (0) Table millevalsoe_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0065.544 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.545 (0) Table millevalsoe_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1196) in 0.00 seconds
+0065.551 (0) Table millevalsoe_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0065.551 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.556 (0) Table millevalsoe_yoast_indexable: Total expected rows (via COUNT): 33
+0065.556 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.557 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.559 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.559 (0) Table millevalsoe_yoast_indexable: Rows added in this batch (next record: 34): 33 (uncompressed bytes in this segment=21790) in 0.01 seconds
+0065.566 (0) Table millevalsoe_yoast_indexable: finishing file(s) (2, 3.8 KB)
+0065.566 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.570 (0) Table millevalsoe_yoast_indexable_hierarchy: Total expected rows (approximate): 30
+0065.571 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.571 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.571 (0) Table millevalsoe_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=1337) in 0.00 seconds
+0065.577 (0) Table millevalsoe_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0065.577 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.581 (0) Table millevalsoe_yoast_migrations: Total expected rows (via COUNT): 24
+0065.581 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.582 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.582 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.583 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.583 (0) Table millevalsoe_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1315) in 0.00 seconds
+0065.588 (0) Table millevalsoe_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0065.589 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.592 (0) Table millevalsoe_yoast_primary_term: Total expected rows (via COUNT): 0
+0065.593 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.594 (0) Table millevalsoe_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=883) in 0.00 seconds
+0065.599 (0) Table millevalsoe_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0065.600 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1762, wp-content/plugins/updraftplus/backup.php)
+0065.603 (0) Table millevalsoe_yoast_seo_links: Total expected rows (via COUNT): 182
+0065.604 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0065.604 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.606 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2682, wp-content/plugins/updraftplus/backup.php)
+0065.606 (0) Table millevalsoe_yoast_seo_links: Rows added in this batch (next record: 200): 182 (uncompressed bytes in this segment=25118) in 0.00 seconds
+0065.612 (0) Table millevalsoe_yoast_seo_links: finishing file(s) (2, 2.8 KB)
+0065.613 (0) PHP event: code E_WARNING: filemtime(): stat failed for /customers/a/f/f/kilomanu.dk/httpd.www/kea/millevalsoe/wp-content/updraft/backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0065.615 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_options.table.tmpr5392.gz (1/64/fopen): adding to final database dump
+0065.618 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_options.table.gz (2/64/fopen): adding to final database dump
+0065.619 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_users.table.tmpr4.gz (3/64/fopen): adding to final database dump
+0065.620 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_users.table.gz (4/64/fopen): adding to final database dump
+0065.620 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_usermeta.table.tmpr81.gz (5/64/fopen): adding to final database dump
+0065.622 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_usermeta.table.gz (6/64/fopen): adding to final database dump
+0065.622 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_commentmeta.table.tmpr0.gz (7/64/fopen): adding to final database dump
+0065.623 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_commentmeta.table.gz (8/64/fopen): adding to final database dump
+0065.624 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_comments.table.tmpr2.gz (9/64/fopen): adding to final database dump
+0065.627 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_comments.table.gz (10/64/fopen): adding to final database dump
+0065.627 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_links.table.tmpr0.gz (11/64/fopen): adding to final database dump
+0065.628 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_links.table.gz (12/64/fopen): adding to final database dump
+0065.629 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_postmeta.table.tmpr15226.gz (13/64/fopen): adding to final database dump
+0065.735 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_postmeta.table.tmpr24395.gz (14/64/fopen): adding to final database dump
+0065.808 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_postmeta.table.gz (15/64/fopen): adding to final database dump
+0065.809 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_posts.table.tmpr3196.gz (16/64/fopen): adding to final database dump
+0065.903 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_posts.table.gz (17/64/fopen): adding to final database dump
+0065.904 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_term_relationships.table.tmpr100001.gz (18/64/fopen): adding to final database dump
+0065.905 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_term_relationships.table.gz (19/64/fopen): adding to final database dump
+0065.906 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_term_taxonomy.table.tmpr43.gz (20/64/fopen): adding to final database dump
+0065.907 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_term_taxonomy.table.gz (21/64/fopen): adding to final database dump
+0065.907 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_termmeta.table.tmpr0.gz (22/64/fopen): adding to final database dump
+0065.908 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_termmeta.table.gz (23/64/fopen): adding to final database dump
+0065.909 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_terms.table.tmpr43.gz (24/64/fopen): adding to final database dump
+0065.910 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_terms.table.gz (25/64/fopen): adding to final database dump
+0065.910 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_actions.table.tmpr37.gz (26/64/fopen): adding to final database dump
+0065.911 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_actions.table.gz (27/64/fopen): adding to final database dump
+0065.912 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_claims.table.tmpr0.gz (28/64/fopen): adding to final database dump
+0065.913 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_claims.table.gz (29/64/fopen): adding to final database dump
+0065.913 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_groups.table.tmpr2.gz (30/64/fopen): adding to final database dump
+0065.914 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_groups.table.gz (31/64/fopen): adding to final database dump
+0065.915 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_logs.table.tmpr47.gz (32/64/fopen): adding to final database dump
+0065.916 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_actionscheduler_logs.table.gz (33/64/fopen): adding to final database dump
+0065.916 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_events.table.tmpr0.gz (34/64/fopen): adding to final database dump
+0065.917 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_events.table.gz (35/64/fopen): adding to final database dump
+0065.918 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions.table.tmpr2.gz (36/64/fopen): adding to final database dump
+0065.919 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions.table.gz (37/64/fopen): adding to final database dump
+0065.919 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions_actions_log.table.tmpr2.gz (38/64/fopen): adding to final database dump
+0065.921 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions_actions_log.table.gz (39/64/fopen): adding to final database dump
+0065.921 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions_values.table.tmpr6.gz (40/64/fopen): adding to final database dump
+0065.922 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_e_submissions_values.table.gz (41/64/fopen): adding to final database dump
+0065.922 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_meta.table.tmpr0.gz (42/64/fopen): adding to final database dump
+0065.923 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_meta.table.gz (43/64/fopen): adding to final database dump
+0065.924 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_type_labels.table.tmpr2.gz (44/64/fopen): adding to final database dump
+0065.926 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_type_labels.table.gz (45/64/fopen): adding to final database dump
+0065.926 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_types.table.tmpr0.gz (46/64/fopen): adding to final database dump
+0065.928 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointment_types.table.gz (47/64/fopen): adding to final database dump
+0065.928 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointments.table.tmpr0.gz (48/64/fopen): adding to final database dump
+0065.929 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_appointments.table.gz (49/64/fopen): adding to final database dump
+0065.930 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_async_actions.table.tmpr0.gz (50/64/fopen): adding to final database dump
+0065.931 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_async_actions.table.gz (51/64/fopen): adding to final database dump
+0065.931 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_availability.table.tmpr0.gz (52/64/fopen): adding to final database dump
+0065.933 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_availability.table.gz (53/64/fopen): adding to final database dump
+0065.933 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_availability_external.table.tmpr0.gz (54/64/fopen): adding to final database dump
+0065.934 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_availability_external.table.gz (55/64/fopen): adding to final database dump
+0065.934 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_revision_meta.table.tmpr0.gz (56/64/fopen): adding to final database dump
+0065.936 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_revision_meta.table.gz (57/64/fopen): adding to final database dump
+0065.936 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_revisions.table.tmpr0.gz (58/64/fopen): adding to final database dump
+0065.937 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_ssa_revisions.table.gz (59/64/fopen): adding to final database dump
+0065.937 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_admin_note_actions.table.tmpr180.gz (60/64/fopen): adding to final database dump
+0065.939 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_admin_note_actions.table.gz (61/64/fopen): adding to final database dump
+0065.939 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_admin_notes.table.tmpr52.gz (62/64/fopen): adding to final database dump
+0065.940 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_admin_notes.table.gz (63/64/fopen): adding to final database dump
+0065.941 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_category_lookup.table.tmpr1001.gz (64/64/fopen): adding to final database dump
+0065.942 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_category_lookup.table.gz (65/64/fopen): adding to final database dump
+0065.943 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_customer_lookup.table.tmpr0.gz (66/64/fopen): adding to final database dump
+0065.944 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_customer_lookup.table.gz (67/64/fopen): adding to final database dump
+0065.945 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_download_log.table.tmpr0.gz (68/64/fopen): adding to final database dump
+0065.946 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_download_log.table.gz (69/64/fopen): adding to final database dump
+0065.946 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_coupon_lookup.table.tmpr1.gz (70/64/fopen): adding to final database dump
+0065.947 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_coupon_lookup.table.gz (71/64/fopen): adding to final database dump
+0065.948 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_product_lookup.table.tmpr0.gz (72/64/fopen): adding to final database dump
+0065.950 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_product_lookup.table.gz (73/64/fopen): adding to final database dump
+0065.950 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_stats.table.tmpr0.gz (74/64/fopen): adding to final database dump
+0065.952 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_stats.table.gz (75/64/fopen): adding to final database dump
+0065.952 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_tax_lookup.table.tmpr1.gz (76/64/fopen): adding to final database dump
+0065.953 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_order_tax_lookup.table.gz (77/64/fopen): adding to final database dump
+0065.953 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_attributes_lookup.table.tmpr1.gz (78/64/fopen): adding to final database dump
+0065.955 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_attributes_lookup.table.gz (79/64/fopen): adding to final database dump
+0065.955 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_download_directories.table.tmpr3.gz (80/64/fopen): adding to final database dump
+0065.957 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_download_directories.table.gz (81/64/fopen): adding to final database dump
+0065.957 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_meta_lookup.table.tmpr0.gz (82/64/fopen): adding to final database dump
+0065.958 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_product_meta_lookup.table.gz (83/64/fopen): adding to final database dump
+0065.959 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_rate_limits.table.tmpr0.gz (84/64/fopen): adding to final database dump
+0065.960 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_rate_limits.table.gz (85/64/fopen): adding to final database dump
+0065.961 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_reserved_stock.table.tmpr1.gz (86/64/fopen): adding to final database dump
+0065.962 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_reserved_stock.table.gz (87/64/fopen): adding to final database dump
+0065.963 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_tax_rate_classes.table.tmpr3.gz (88/64/fopen): adding to final database dump
+0065.964 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_tax_rate_classes.table.gz (89/64/fopen): adding to final database dump
+0065.965 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_webhooks.table.tmpr0.gz (90/64/fopen): adding to final database dump
+0065.966 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_wc_webhooks.table.gz (91/64/fopen): adding to final database dump
+0065.967 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_api_keys.table.tmpr0.gz (92/64/fopen): adding to final database dump
+0065.968 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_api_keys.table.gz (93/64/fopen): adding to final database dump
+0065.968 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_attribute_taxonomies.table.tmpr0.gz (94/64/fopen): adding to final database dump
+0065.970 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_attribute_taxonomies.table.gz (95/64/fopen): adding to final database dump
+0065.970 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_downloadable_product_permissions.table.tmpr0.gz (96/64/fopen): adding to final database dump
+0065.971 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_downloadable_product_permissions.table.gz (97/64/fopen): adding to final database dump
+0065.972 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_log.table.tmpr0.gz (98/64/fopen): adding to final database dump
+0065.973 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_log.table.gz (99/64/fopen): adding to final database dump
+0065.974 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_order_itemmeta.table.tmpr0.gz (100/64/fopen): adding to final database dump
+0065.976 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_order_itemmeta.table.gz (101/64/fopen): adding to final database dump
+0065.977 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_order_items.table.tmpr0.gz (102/64/fopen): adding to final database dump
+0065.978 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_order_items.table.gz (103/64/fopen): adding to final database dump
+0065.978 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_payment_tokenmeta.table.tmpr0.gz (104/64/fopen): adding to final database dump
+0065.979 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_payment_tokenmeta.table.gz (105/64/fopen): adding to final database dump
+0065.980 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_payment_tokens.table.tmpr0.gz (106/64/fopen): adding to final database dump
+0065.981 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_payment_tokens.table.gz (107/64/fopen): adding to final database dump
+0065.982 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_sessions.table.tmpr3.gz (108/64/fopen): adding to final database dump
+0065.984 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_sessions.table.gz (109/64/fopen): adding to final database dump
+0065.984 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zone_locations.table.tmpr0.gz (110/64/fopen): adding to final database dump
+0065.985 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zone_locations.table.gz (111/64/fopen): adding to final database dump
+0065.986 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zone_methods.table.tmpr0.gz (112/64/fopen): adding to final database dump
+0065.987 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zone_methods.table.gz (113/64/fopen): adding to final database dump
+0065.988 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zones.table.tmpr0.gz (114/64/fopen): adding to final database dump
+0065.989 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_shipping_zones.table.gz (115/64/fopen): adding to final database dump
+0065.989 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_tax_rate_locations.table.tmpr0.gz (116/64/fopen): adding to final database dump
+0065.991 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_tax_rate_locations.table.gz (117/64/fopen): adding to final database dump
+0065.991 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_tax_rates.table.tmpr0.gz (118/64/fopen): adding to final database dump
+0065.993 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_woocommerce_tax_rates.table.gz (119/64/fopen): adding to final database dump
+0065.993 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_indexable.table.tmpr35.gz (120/64/fopen): adding to final database dump
+0065.994 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_indexable.table.gz (121/64/fopen): adding to final database dump
+0065.995 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_indexable_hierarchy.table.tmpr1001.gz (122/64/fopen): adding to final database dump
+0065.996 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_indexable_hierarchy.table.gz (123/64/fopen): adding to final database dump
+0065.996 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_migrations.table.tmpr25.gz (124/64/fopen): adding to final database dump
+0065.998 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_migrations.table.gz (125/64/fopen): adding to final database dump
+0065.998 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_primary_term.table.tmpr0.gz (126/64/fopen): adding to final database dump
+0065.999 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_primary_term.table.gz (127/64/fopen): adding to final database dump
+0066.000 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_seo_links.table.tmpr201.gz (128/64/fopen): adding to final database dump
+0066.001 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db-table-millevalsoe_yoast_seo_links.table.gz (129/64/fopen): adding to final database dump
+0066.098 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz: finished writing out complete database file (38386.8 KB)
+0066.596 (0) Total database tables backed up: 64 (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz, size: 39308168, sha1: 6da7e2cb6056b447aece70e755cb96c7beaa3614, sha256: 6edced146846895d8433dc83810665e0c060e501fa82072ab045d87e44a77818)
+0066.602 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip: plugins: This file has already been successfully uploaded
+0066.602 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip: themes: This file has already been successfully uploaded
+0066.602 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip: uploads: This file has already been successfully uploaded
+0066.603 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip: others: This file has already been successfully uploaded
+0066.603 (0) backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0066.603 (0) Saving backup history. Total backup size: 139.8 MB
+0066.606 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0066.607 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0066.608 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 559, wp-content/plugins/updraftplus/backup.php)
+0066.608 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ab0eac951d31e8eddb84155da4007d37)
+0066.956 (0) Google Drive: quota usage: used=5738.9 MB, total=15360 MB, available=9621.1 MB
+0066.956 (0) Google Drive: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz: Attempting to upload to Google Drive (into folder id: 1DB6_1cqmThy1TJiEOd0AigzIqwNCaXww)
+0067.669 (0) Googledrive chunked upload: 2.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 22.4 / 138)
+0068.310 (0) Googledrive chunked upload: 8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 22.4 / 138)
+0068.809 (0) Googledrive chunked upload: 18.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 22.4 / 138)
+0069.576 (0) Googledrive chunked upload: 40 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 22.4 / 138)
+0070.949 (0) Googledrive chunked upload: 82.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 22.4 / 138)
+0072.626 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0072.628 (0) Google Drive: OK: Archive backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz uploaded in 5.67 seconds
+0072.629 (0) Recording as successfully uploaded: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz
+0072.633 (0) Deleting local file: backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-db.gz: OK
+0072.634 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0072.635 (0) Number of backup sets in history: 8; groups (db): 1
+0072.635 (0) Examining (for databases) backup set with group_id=0, nonce=07d0fae4dab5, datestamp=1685079657 (May 26 2023 05:40:57)
+0072.636 (0) This backup set is the backup set just made, so will not be deleted.
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=eb2bc00cce69, datestamp=1684988536 (May 25 2023 04:22:16)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=b95f9336c1f4, datestamp=1684911621 (May 24 2023 07:00:21)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=775f32526d03, datestamp=1684830355 (May 23 2023 08:25:55)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=a6385d550e8e, datestamp=1684740234 (May 22 2023 07:23:54)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=bc6a9b74b262, datestamp=1684679126 (May 21 2023 14:25:26)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=c507a3c36d11, datestamp=1684568727 (May 20 2023 07:45:27)
+0072.636 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0072.636 (0) Examining (for databases) backup set with group_id=0, nonce=97ab141fb70f, datestamp=1684479656 (May 19 2023 07:00:56)
+0072.636 (0) 1684479656: db: this set includes a database (backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-db.gz); db count is now 7
+0072.636 (0) 1684479656: db: over retain limit (7); will delete this database
+0074.730 (0) Google Drive: backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-db.gz: Deletion successful
+0074.733 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0074.733 (0) Number of backup sets in history: 8; groups (files): 1
+0074.734 (0) Examining (for files) backup set with nonce=07d0fae4dab5, datestamp=1685079657 (May 26 2023 05:40:57)
+0074.734 (0) This backup set is the backup set just made, so will not be deleted.
+0074.734 (0) This backup set is the backup set just made, so will not be deleted.
+0074.734 (0) This backup set is the backup set just made, so will not be deleted.
+0074.734 (0) This backup set is the backup set just made, so will not be deleted.
+0074.734 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=eb2bc00cce69, datestamp=1684988536 (May 25 2023 04:22:16)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=b95f9336c1f4, datestamp=1684911621 (May 24 2023 07:00:21)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=775f32526d03, datestamp=1684830355 (May 23 2023 08:25:55)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=a6385d550e8e, datestamp=1684740234 (May 22 2023 07:23:54)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=bc6a9b74b262, datestamp=1684679126 (May 21 2023 14:25:26)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=c507a3c36d11, datestamp=1684568727 (May 20 2023 07:45:27)
+0074.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.735 (0) Examining (for files) backup set with nonce=97ab141fb70f, datestamp=1684479656 (May 19 2023 07:00:56)
+0074.735 (0) plugins: over retain limit (7); will delete this file entity
+0074.735 (0) themes: over retain limit (7); will delete this file entity
+0074.735 (0) uploads: over retain limit (7); will delete this file entity
+0074.735 (0) others: over retain limit (7); will delete this file entity
+0076.076 (0) Google Drive: backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-others.zip: Deletion successful
+0076.951 (0) Google Drive: backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-uploads.zip: Deletion successful
+0077.927 (0) Google Drive: backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-themes.zip: Deletion successful
+0078.631 (0) Google Drive: backup_2023-05-19-0700_Mille_Valse_97ab141fb70f-plugins.zip: Deletion successful
+0078.633 (0) This backup set is now empty; will remove from history
+0078.634 (0) Deleting log file (log.97ab141fb70f.txt)
+0078.635 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0078.638 (0) Resume backup (07d0fae4dab5, 0): finish run
+0078.639 (0) Decremented the semaphore (fd) by 1
+0078.640 (0) Semaphore (fd) unlocked
+0078.640 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0078.642 (0) Deleting zip manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-plugins.zip.list.tmp)
+0078.643 (0) Deleting zip manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-themes.zip.list.tmp)
+0078.644 (0) Deleting zip manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-uploads.zip.list.tmp)
+0078.645 (0) Deleting zip manifest (backup_2023-05-26-0540_Mille_Valse_07d0fae4dab5-others.zip.list.tmp)
+0078.645 (0) Fetching RSS news feed
+0078.950 (0) Fetched RSS news feed; result is a: SimplePie
+0078.981 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: kari7...
+0079.288 (0) The backup apparently succeeded and is now complete
